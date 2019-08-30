@@ -1,0 +1,43 @@
+.column-1{
+  float:left;
+  width:10%;
+  padding:10px;
+ 
+  }
+
+.column-2{
+ margin:100px;
+ padding:10px;
+}
+
+h1{
+ text-align:center;
+ color:black;
+ font-family:"courier new", courier, monospace;
+ font-weight:bold;
+ text-decoration: underline overline dotted red;
+}
+
+h2{
+ text-align:center;
+ color:black;
+ font-family:"courier new", courier, monospace;
+ font-weight:bold;
+ text-decoration: underline overline dotted red;
+}
+
+.column-2 table,th,td{
+ border:1px solid black;
+ text-align:center;
+ font-family:"courier new", courier, monospace;
+ font-weight:bold;
+ color:black;
+}
+
+body{
+
+<!--background-image:url("restaurantbackground3.jpeg"),url("restaurantbackground4.jpeg");-->
+<!--background-repeat:no-repeat;-->
+background-size:cover;
+background-color:#FFA500;
+}

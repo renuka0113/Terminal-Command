@@ -1,0 +1,36 @@
+<!Doctype html>
+ <html>
+  <header>
+   <title>Reservation Form</title>
+  </header>
+  <body>
+   <nav>
+    <ul>
+     <li><a href='/Contacts.html' tag='_blank'>Contact us</a></li>
+    </ul>
+    <form action='/form.php' method='post'>
+      <legend>ReservationForm</legend>
+       <fieldset>
+       <input type='text' id='fname'>
+       <label for='fname'>First Name</label>
+       <input type='text' id='lname'>
+       <label for='lname'>Last Name</label>
+       <input type='email' id='email' required>
+       <label for='email'>Email</label>
+       <input type='number' id='phone>
+       <label for id='phone'>PhoneNo</label>
+</fieldset>
+       <select name='selectTime'>
+        <option value='10AM CST'>10AM CST</option>
+        <option value='11AM CST'>11AM CST</option>
+        <option value='12PM CST'>12PM CST</option>
+       </select>
+       <label for id='selectTime'>Availability</label>
+       <textarea id='notes' rows='5' columns='70'>Notes</textarea>
+       <label for id='notes'>Notes</label>
+       <input type='button' value='Submit'>
+       <label for id='button'>Submit Form</label>
+     
+    </form>
+   </body>
+</html>
